@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Map | Chicago Lakefront Bike Stops</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+  </head>
+  <body class="map">
+    <nav>
+      <ul>
+        <li><a href="index.html">index.html</a></li>
+        <li><a href="resume.html">resume.html</a></li>
+        <li><a href="page3.html">page3.html</a></li>
+        <li><a href="map.html">map.html</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1>My Chicago Lakefront Map</h1>
+      <p>Explore my favorite bike stops along Lake Michigan.</p>
+    </header>
+    <main>
+      <section>
+        <h2>Interactive Map</h2>
+        <p>Click a marker to learn about a stop. Click anywhere on the map to drop your own marker.</p>
+        <div class="controls">
+          <button type="button" id="questions-btn">Questions</button>
+          <button type="button" id="reset-btn">Reset View</button>
+          <button type="button" id="clear-btn">Clear My Markers</button>
+        </div>
+        <p id="map-status" aria-live="polite">Loading map...</p>
+        <div id="map"></div>
+      </section>
+    </main>
+    <footer>
+      <p>Back to my <a href="index.html">home page</a>.</p>
+    </footer>
+  </body>
+</html>
